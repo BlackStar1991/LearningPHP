@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin panel"
+AuthUserFile /opt/lampp/htdocs/LearningPHP/admin/.htpasswd
+Require valid-user
