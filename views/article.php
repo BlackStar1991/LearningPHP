@@ -11,7 +11,7 @@
         <div class="container">
             <!-- Header (navbar) -->
             <nav class="navbar navbar-default" role="navigation">
-                <h1>Блог</h1>
+                <h1><a href="index.php">Блог</a></h1>
             </nav> 
             <!-- END Header (navbar) -->
             <div class="article">

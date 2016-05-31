@@ -11,8 +11,8 @@
         <div class="container">
             <!-- Header (navbar) -->
             <nav class="navbar navbar-default" role="navigation">
-                <h1>Блог</h1>
-                <a href="admin">Панель администратора</a>
+                <h1><a href="index.php">Блог</a></h1>
+                <h4><a href="admin">Панель администратора</a></h4>
             </nav> 
             <!-- END Header (navbar) -->
             <?php foreach($articles as $article): ?>
