@@ -10,9 +10,15 @@
     <body>
         <div class="container">
             <!-- Header (navbar) -->
-            <nav class="navbar navbar-default" role="navigation">
-                <h1><a href="index.php">Блог</a></h1>
-                <h4><a href="admin">Панель администратора</a></h4>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a id="blog" class="navbar-brand" href="index.php">Блог</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="admin">Панель администратора</a></li>
+                    </ul>
+                </div>
             </nav> 
             <!-- END Header (navbar) -->
             <?php foreach($articles as $article): ?>

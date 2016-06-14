@@ -4,16 +4,39 @@ footer {
 
 .article {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
-h1{
-    float: left;
+
+.article em {
+    color: rgb(119, 119, 119);
 }
-h4{
-    float: right;
-    text-align: right;
-    padding: 21px 1px;
+
+.article h3 {
+    font-size: 20px;
 }
-{
-    color: aqua;
+
+#blog {
+    color: rgb(51, 122, 183);
+    font-size: 28px;
+    padding-left: 0px;
+}
+
+#admin_table {
+    margin-top: 45px;
+}
+
+.form-item {
+    width: 100%;
+}
+
+#addart textarea {
+    height: 250px;
+}
+
+input[type="submit"] {
+    width: 100px;
+}
+
+#addart label {
+    width: 100%;
 }
