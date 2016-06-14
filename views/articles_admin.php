@@ -31,7 +31,7 @@
                 <?php foreach($articles as $article): ?>
                     <tr>
                         <td><?=$article['date']?></td>
-                        <td><?=$article['title']?></td>
+                        <td><?=articles_intro($article['title'], 80)?></td>
                         <td>
                             <a href="index.php?action=edit&id=<?=$article['id']?>">Редактировать</a>
                         </td>

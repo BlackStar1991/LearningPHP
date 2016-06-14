@@ -25,7 +25,7 @@
             <div class="article">
                 <h3><a href="article.php?id=<?=$article['id']?>"><?=$article['title']?></a></h3>
                 <em>Опубликованно: <?=$article['date']?></em>
-                <p><?=$article['content']?></p>
+                <p><?=articles_intro($article['content'])?></p>
             </div>
             <?php endforeach ?>
             <footer>
